@@ -1,13 +1,13 @@
 # Sound-Emotion-Analysis
 
 
-## 🎵 Emotion Detection from Audio
+## Emotion Detection from Audio
 
 This project detects the **emotion of audio files** (Happy, Sad, Angry, Neutral) using MFCC features and a pre-trained SVM model. The code is optimized for fast batch processing and suitable for performance evaluation in Operating Systems projects.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 emotion_project/
@@ -31,7 +31,7 @@ emotion_project/
 
 ---
 
-## 🧠 Step 1: Train the Model
+## Step 1: Train the Model
 
 Prepare your dataset with `.wav` files in the `dataset/` folder, grouped by emotion names (Happy, Sad, Angry, Neutral).  
 Then run:
@@ -45,7 +45,7 @@ This will create `svm_model.joblib` and `scaler.joblib`.
 
 ---
 
-## 🎯 Step 2: Predict Emotion from Audio Files
+## Step 2: Predict Emotion from Audio Files
 
 Place the `.wav` files you want to analyze into the `audio_samples/` folder.  
 Then run:
@@ -62,7 +62,7 @@ This will create a `emotion_results.csv` file with the following columns:
 
 ---
 
-## 🛠 Dependencies
+## Dependencies
 
 Install the required libraries using pip:
 
@@ -72,7 +72,7 @@ pip install python_speech_features scikit-learn joblib pandas
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Audio files should be in `.wav` format.
 - The MFCC uses 13 coefficients, 30ms window, and 20ms hop step.
@@ -80,6 +80,6 @@ pip install python_speech_features scikit-learn joblib pandas
 
 ---
 
-## 📞 Contact
+## Contact
 
 If you have any questions, feel free to ask!
