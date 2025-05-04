@@ -28,6 +28,14 @@ emotion_project/
 
 ---
 
+## Library Requirement:
+
+```bash
+pip install numpy scipy python_speech_features scikit-learn joblib pandas
+```
+
+---
+
 ## Step 1: Train the Model
 
 Prepare your dataset with `.wav` files in the `dataset/` folder, grouped by emotion names (Happy, Sad, Angry, Neutral).  
