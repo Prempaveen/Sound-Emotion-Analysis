@@ -1,0 +1,5 @@
+file,emotion,time_sec
+test1.wav,Angry,0.378
+test2.wav,Sad,0.63
+test3.wav,Neutral,0.558
+test4.wav,Sad,0.426
