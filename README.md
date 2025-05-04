@@ -1,8 +1,5 @@
 # Sound-Emotion-Analysis
 
-
-## Emotion Detection from Audio
-
 This project detects the **emotion of audio files** (Happy, Sad, Angry, Neutral) using MFCC features and a pre-trained SVM model. The code is optimized for fast batch processing and suitable for performance evaluation in Operating Systems projects.
 
 ---
